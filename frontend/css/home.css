@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.logo {
+  height: 30px;
+  margin-right: 8px;
+}
+
+.history-item, .history-scroll {
+  padding: 8px;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  margin: 4px 0;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.history-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.mic-button {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  background-color: #f38c8c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 8px solid #d6f0f0;
+}
+
+.profile-box {
+  margin-left: auto;
+}
+
+.profile-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #6c5ce7;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+select.searchable {
+  padding: 6px;
+}
+
